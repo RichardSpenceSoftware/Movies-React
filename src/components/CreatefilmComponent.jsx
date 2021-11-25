@@ -101,8 +101,8 @@ class CreatefilmComponent extends Component {
                                                 value={this.state.comedy} onChange={this.changefilmHandler}/>
                                         </div>
 
-                                        <button className="btn btn-success" onClick={this.saveOrUpdatefilm}>Save</button>
-                                        <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{marginLeft: "10px"}}>Cancel</button>
+                                        <button onClick={this.saveOrUpdatefilm}>Save</button>
+                                        <button onClick={this.cancel.bind(this)} style={{marginLeft: "10px"}}>Cancel</button>
                                     </form>
                                 </div>
                             </div>
